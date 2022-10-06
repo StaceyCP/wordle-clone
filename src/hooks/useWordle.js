@@ -4,7 +4,7 @@ const useWordle = (solution) => {
 
     const [turn, setTurn] = useState(0);
     const [currentGuess, setCurrentGuess] = useState('');
-    const [guesses, setGuesses] = useState([...Array(6)]); //each guess is an array
+    const [guesses, setGuesses] = useState([...Array(6)]); //each guess is an array of formatted guess letters
     const [history, setHistory] = useState([]); //each guess is a string - prevents duplicate guesses
     const [isCorrect, setIsCorrect] = useState(false);
 

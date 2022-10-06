@@ -24,8 +24,20 @@ h1 {
   font-size: 2.5em;
   height: 60px;
   line-height: 60px;
-  margin: 4px;
+  margin: 2px;
   text-align: center;
   text-transform: uppercase;
   width: 60px
+}
+
+.row > div.grey {
+  background-color: silver;
+}
+
+.row > div.yellow {
+  background-color: rgb(255, 255, 115);
+}
+
+.row > div.green {
+  background-color: rgb(127, 255, 153);
 }

@@ -16,7 +16,6 @@ export default function Wordle({ solution }) {
 
     return(
         <div>
-            <div>Your current guess is {currentGuess}</div>
             <div>Total guesses {turn}</div>
             {isCorrect &&
                 <div>You are correct</div>
