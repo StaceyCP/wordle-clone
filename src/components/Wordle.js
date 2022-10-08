@@ -20,6 +20,9 @@ export default function Wordle({ solution }) {
             {isCorrect &&
                 <div>You are correct</div>
             }
+            {(turn > 5 && isCorrect !== true) &&
+                <div>The correct solution is {solution}</div>
+            }
             <Grid currentGuess = {currentGuess} guesses = {guesses} turn = {turn} />
         </div>
     )

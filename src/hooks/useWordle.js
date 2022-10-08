@@ -67,6 +67,7 @@ const useWordle = (solution) => {
                 console.log("All of your guesses have been used")
                 return
             }
+            
             //no submit if guess has been used already
             if (history.includes(currentGuess)) {
                 console.log("This word has already been used")
