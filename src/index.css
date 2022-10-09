@@ -63,7 +63,7 @@ h1 {
 /* Keypad */
 .keypad {
   max-width: 500px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .keypad > div {
   background-color: #ddd;
