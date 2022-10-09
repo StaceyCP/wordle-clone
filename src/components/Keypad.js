@@ -15,12 +15,26 @@ export default function Keypad({ usedKeys }) {
 
     return (
         <div className='keypad'>
-            {letters && letters.map((l) => {
+            {letters && letters.slice(0, 10).map((l) => {
                 const color = usedKeys[l.key]
                 return (
                     <div key={l.key} className={color}>{l.key}</div>
                 )
             })} 
+            <br></br>
+            {letters && letters.slice(10, 19).map((l) => {
+                const color = usedKeys[l.key]
+                return (
+                    <div key={l.key} className={color}>{l.key}</div>
+                )
+            })}
+            <br></br>
+            {letters && letters.slice(-7).map((l) => {
+                const color = usedKeys[l.key]
+                return (
+                    <div key={l.key} className={color}>{l.key}</div>
+                )
+            })}
         </div>
     )
 }

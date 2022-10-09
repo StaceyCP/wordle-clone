@@ -69,3 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # wordle-clone
+
+
+# Attributions
+<a href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by iconixar - Flaticon</a>
+<a target="_blank" href="https://icons8.com/icon/648/sun">Sun</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

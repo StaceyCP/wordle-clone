@@ -8,7 +8,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                 <h2>🎉</h2>
                 <h3>You Win!</h3>
                 <p className="solution">{solution}</p>
-                <p>You found the solution in {turn} guesses</p>
+                <p>Congratulations! <br></br>You found the solution in {turn} guesses</p>
             </div>
         )}
 
