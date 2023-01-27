@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# React app - Wordle Clone
+
+This is a tutorial based project. I practiced some basic react concepts including, state manangement and utilising components. I also began learning some more complex topics like creating a custom hook to be used in the app.
+
+The tutorial series I followed to make this app can be found here:
+https://www.youtube.com/watch?v=ZSWl5UwhHcs&list=PL4cUxeGkcC9gXdVXVJBmHpSI7zCEcjLUX&ab_channel=TheNetNinja
+
+## Setting up this app
+
+To get started with this app use `npm install` to install the required dependencies
+This app also uses JSON-server this should be installed globally using `npm install -g json-server`
+To get the json server running for this app the server is set for 3001.
+Please run the command `json-server ./data/db.json --port 3001`
+
+Once this is initialised you can start the app as normal using `npm start`
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
